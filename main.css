@@ -408,6 +408,36 @@ ul {
     display: none !important;
 }
 
+@media (max-width: 767px) {
+    .visible-xs {
+        display: block !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .visible-xs-block {
+        display: block !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .visible-xs-inline {
+        display: inline !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .visible-xs-inline-block {
+        display: inline-block !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .hidden-xs {
+        display: none !important;
+    }
+}
+
 .section-container-spacer {
     margin-bottom: 30px;
 }
@@ -424,6 +454,18 @@ main {
     transition: all 0.2s linear;
     padding: 15px;
     height: 100%;
+}
+
+@media (min-width: 768px) {
+    main {
+        margin-left: 240px;
+    }
+}
+
+@media (min-width: 992px) {
+    main {
+        padding: 30px;
+    }
 }
 
 /* Sidebar */
@@ -447,6 +489,14 @@ main {
 
 .sidebar .navbar-collapse {
     padding: 0;
+}
+
+@media (min-width: 768px) {
+    .sidebar {
+        padding: 30px;
+        left: 0;
+        top: 0;
+    }
 }
 
 .site-header {
@@ -586,6 +636,18 @@ img {
     transition-duration: .3s;
 }
 
+@media only screen and (max-width: 900px) {
+    .container {
+        width: calc(50% - 6px);
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .container {
+        width: 100%;
+    }
+}
+
 /* contact */
 .fa-icon {
     color: #000;
@@ -693,10 +755,6 @@ textarea.form-control {
     .col-md-12 {
         width: 100%;
     }
-
-    main {
-        padding: 30px;
-    }
 }
 
 @media (min-width: 768px) {
@@ -723,47 +781,5 @@ textarea.form-control {
 
     .navbar-toggle {
         display: none;
-    }
-
-    .visible-xs-block {
-        display: block !important;
-    }
-
-    .visible-xs {
-        display: block !important;
-    }
-
-    .visible-xs-inline {
-        display: inline !important;
-    }
-
-    .visible-xs-inline-block {
-        display: inline-block !important;
-    }
-
-    .hidden-xs {
-        display: none !important;
-    }
-
-    main {
-        margin-left: 240px;
-    }
-
-    .sidebar {
-        padding: 30px;
-        left: 0;
-        top: 0;
-    }
-}
-
-@media only screen and (max-width: 900px) {
-    .container {
-        width: calc(50% - 6px);
-    }
-}
-
-@media only screen and (max-width: 400px) {
-    .container {
-        width: 100%;
     }
 }
