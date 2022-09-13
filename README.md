@@ -24,5 +24,5 @@ This is a website of a photography studio. I have developed it using React, JSX,
 - ![Netlify](https://img.shields.io/badge/netlify-%23563D7C.svg?style=for-the-badge&logo=netlify&logoColor=white)
 
 ### Website Preview:
-<img src="./public/images/Capture-Studio.png" alt="Capture-Studio">
+<img src="./public/assets/images/Capture-Studio.png" alt="Capture-Studio">
 
